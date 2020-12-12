@@ -1,0 +1,24 @@
+.box {
+    width: 30%;
+
+    @media screen and (max-width: 900px) {
+        width: 50%;
+        margin-top: 70px;
+    }
+}
+
+.number {
+    font-family: "open";
+    font-weight: 700;
+    color: var(--VeryDarkCyan);
+    font-size: 3.5rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: "open";
+    font-weight: 400;
+    color: gray;
+    font-size: 1rem;
+}

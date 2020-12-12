@@ -1,0 +1,46 @@
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+}
+
+.rounded {
+    border-radius: 30px;
+}
+
+.rect {
+    border-radius: 5px;
+}
+
+.white {
+    font-family: "open";
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid var(--Pink);
+    color: var(--Pink);
+    width: 100px;
+    padding: 5px 15px;
+    &:hover {
+        background-color: var(--LightPink);
+        color: white;
+    }
+}
+
+.pink {
+    font-family: "open";
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: var(--Pink);
+    color: white;
+    width: 120;
+    &:hover {
+        background-color: var(--LightPink);
+    }
+
+    @media screen and(max-width:900px) {
+        width: 180px;
+
+        max-width: 200px;
+    }
+}
